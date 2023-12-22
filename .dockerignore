@@ -93,6 +93,7 @@ celerybeat-schedule
 .venv
 env/
 venv/
+venv2/
 ENV/
 env.bak/
 venv.bak/
@@ -132,24 +133,22 @@ node_modules/
 config.json
 plugins/
 !plugins/registry.json
+!plugins/@local/
 temp/
 test.py
 
 # Other stuff
+.dockerignore
 .env.example
+.git/
 .gitignore
-.lint.py
-.pylintrc
-.travis.yml
+.github/
 app.json
 CHANGELOG.md
-CODE_OF_CONDUCT.md
-CONTRIBUTING.md
-Pipfile
-Pipfile.lock
+Dockerfile
+docker-compose.yml
 Procfile
 pyproject.toml
 README.md
-runtime.txt
-SPONSORS.json
-stack.yml
+Pipfile
+Pipfile.lock
